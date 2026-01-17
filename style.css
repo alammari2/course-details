@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Boldfont";
+  src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "itlicfont";
+  src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "italicfont", sans-serif;
+}
+
+body {
+  background-color: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 19px;
+}
+
+.Card {
+  background-color: white;
+  width: 320px;
+  /* height: 500px; */
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid #da5e5e;
+  box-shadow: 7px 7px 0px 0px #000;
+}
+
+.learning {
+  background-color: #f4d04e;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.date {
+  font-size: 13px;
+  /* font-weight: bold; */
+  margin-top: 18px;
+  color: #111;
+}
+
+.Title {
+  font-size: 20px;
+  /* margin-top: 15px; */
+  margin: 15px 0;
+}
+
+.Title:hover {
+  color: #f4d04e;
+}
+
+.description {
+  font-size: 13px;
+  color: #7f7f7f;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.presonal-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 12px;
+}
